@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the Go build process
+/build/
+/bin/
+/out/
+*.test
+
+# Go modules
+go.mod
+go.sum
+/go.sum.old
+/go.sum.new
+
+# Dependency directories
+/vendor/
+
+# IDE and editor specific files
+.idea/
+/.vscode/
+*.swp
+*.swo
+*.DS_Store
+*.log
+
+# Firebase service account key (should not be committed)
+serviceAccountKey.json
+
+# Environment variables file
+.env
+
+# Logs and debug files
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Miscellaneous system files
+Thumbs.db
+.DS_Store
