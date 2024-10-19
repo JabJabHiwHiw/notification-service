@@ -46,3 +46,6 @@ serviceAccountKey.json
 # Miscellaneous system files
 Thumbs.db
 .DS_Store
+
+# secret
+**/secrets/
