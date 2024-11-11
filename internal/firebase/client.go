@@ -12,7 +12,7 @@ import (
 )
 
 func InitFirebaseClient(ctx context.Context) (*messaging.Client, error) {
-	filePath := "./internal/firebase/secrets/sa-hiw-hiw-2b446b26808d.json"
+	filePath := "app/internal/firebase/secrets/sa-hiw-hiw-2b446b26808d.json"
 
 	if _, err := os.Stat(filePath); os.IsNotExist(err) {
 		log.Fatalf("error file not found: %v\n", err)
